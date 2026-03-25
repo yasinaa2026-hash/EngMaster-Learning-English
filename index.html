@@ -8,9 +8,334 @@
     <link rel="stylesheet" href="./تعلم الإنجليزية الشامل _ Learn English_files/all.min.css">
 </head>
 <body>
+<!DOCTYPE html>
+<!-- saved from url=(0186)file:///C:/Users/yasin/Downloads/%D8%AA%D8%B9%D9%84%D9%85%20%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84%20_%20Learn%20English.html -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="google-site-verification" content="6BD7UIGlUppCkdlhdFjsXZcLuJ3S7AIT5HoXOI9-KVo" />
+    <title>تعلم الإنجليزية الشامل | Learn English</title>
+    <link rel="stylesheet" href="./تعلم الإنجليزية الشامل _ Learn English_files/style.css">
+    <link href="./تعلم الإنجليزية الشامل _ Learn English_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./تعلم الإنجليزية الشامل _ Learn English_files/all.min.css">
+</head>
+<body>
     <div class="app-wrapper">
         <nav class="sidebar">
             <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>English Pro</span>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-target="dashboard"><i class="fa-solid fa-house"></i> الرئيسية</li>
+                <li data-target="letters" class=""><i class="fa-solid fa-a"></i> الحروف</li>
+                <li data-target="reading" class=""><i class="fa-solid fa-book-open"></i> القراءة والكتابة</li>
+                <li data-target="dictation" class=""><i class="fa-solid fa-pen-nib"></i> الإملاء</li>
+                <li data-target="vocabulary" class=""><i class="fa-solid fa-language"></i> المفردات</li>
+                <li data-target="calls" class=""><i class="fa-solid fa-phone"></i> المحادثات والنطق</li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header class="top-header glass">
+                <h1 id="page-title">الرئيسية</h1>
+                <div class="header-actions">
+                    <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+                </div>
+            </header>
+
+            <div class="content-container">
+                <section id="dashboard" class="page-section active">
+                    <div class="welcome-banner">
+                        <h2>مرحباً بك في تطبيق تعلم الإنجليزية الشامل! 👋</h2>
+                        <p>تطبيق يعمل بدون إنترنت (أوفلاين) لتعليمك الحروف، القراءة، الإملاء، ومفردات منوعة (المطبخ، المنزل، ومفاهيم أساسية من حرف A إلى Z).</p>
+                    </div>
+                    
+                    <div class="hero-grid">
+                        <div class="card nav-card" onclick="document.querySelector(&#39;[data-target=\&#39;letters\&#39;]&#39;).click()">
+                            <i class="fa-solid fa-a card-icon" style="color: #3b82f6;"></i>
+                            <h3>الحروف الإنجليزية</h3>
+                            <p>تعلم نطق الحروف من A إلى Z</p>
+                        </div>
+                        <div class="card nav-card" onclick="document.querySelector(&#39;[data-target=\&#39;dictation\&#39;]&#39;).click()">
+                            <i class="fa-solid fa-pen-nib card-icon" style="color: #ef4444;"></i>
+                            <h3>الإملاء (Dictation)</h3>
+                            <p>استمع للكلمة واكتبها بشكل صحيح</p>
+                        </div>
+                        <div class="card nav-card" onclick="document.querySelector(&#39;[data-target=\&#39;vocabulary\&#39;]&#39;).click()">
+                            <i class="fa-solid fa-language card-icon" style="color: #10b981;"></i>
+                            <h3>150+ مفردات مصنفة</h3>
+                            <p>المطبخ، المنزل، والمزيد</p>
+                        </div>
+                        <div class="card nav-card" onclick="document.querySelector(&#39;[data-target=\&#39;calls\&#39;]&#39;).click()">
+                            <i class="fa-solid fa-phone card-icon" style="color: #f59e0b;"></i>
+                            <h3>المحادثات والصوتيات</h3>
+                            <p>استمع وتمرن على الاستماع</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="letters" class="page-section">
+                    <div class="letters-grid" id="letters-container"><div class="letter-box">A</div><div class="letter-box">B</div><div class="letter-box">C</div><div class="letter-box">D</div><div class="letter-box">E</div><div class="letter-box">F</div><div class="letter-box">G</div><div class="letter-box">H</div><div class="letter-box">I</div><div class="letter-box">J</div><div class="letter-box">K</div><div class="letter-box">L</div><div class="letter-box">M</div><div class="letter-box">N</div><div class="letter-box">O</div><div class="letter-box">P</div><div class="letter-box">Q</div><div class="letter-box">R</div><div class="letter-box">S</div><div class="letter-box">T</div><div class="letter-box">U</div><div class="letter-box">V</div><div class="letter-box">W</div><div class="letter-box">X</div><div class="letter-box">Y</div><div class="letter-box">Z</div><div class="letter-box">A</div><div class="letter-box">B</div><div class="letter-box">C</div><div class="letter-box">D</div><div class="letter-box">E</div><div class="letter-box">F</div><div class="letter-box">G</div><div class="letter-box">H</div><div class="letter-box">I</div><div class="letter-box">J</div><div class="letter-box">K</div><div class="letter-box">L</div><div class="letter-box">M</div><div class="letter-box">N</div><div class="letter-box">O</div><div class="letter-box">P</div><div class="letter-box">Q</div><div class="letter-box">R</div><div class="letter-box">S</div><div class="letter-box">T</div><div class="letter-box">U</div><div class="letter-box">V</div><div class="letter-box">W</div><div class="letter-box">X</div><div class="letter-box">Y</div><div class="letter-box">Z</div></div>
+                </section>
+
+                <section id="reading" class="page-section">
+                    <div class="reading-controls">
+                        <p class="instruction-text">اختر الجملة للاستماع إليها والتدرب على قراءتها وكتابتها (مثال: البريد الإلكتروني).</p>
+                    </div>
+                    <div id="reading-container" class="list-container"><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">Hello! My name is Sarah.</div>
+                    <div class="ar">مرحباً! اسمي سارة.</div>
+                </div>
+                <button onclick="speakText(&#39;Hello! My name is Sarah.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">I am learning English today.</div>
+                    <div class="ar">أنا أتعلم الإنجليزية اليوم.</div>
+                </div>
+                <button onclick="speakText(&#39;I am learning English today.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">Can you help me read this?</div>
+                    <div class="ar">هل يمكنك مساعدتي في قراءة هذا؟</div>
+                </div>
+                <button onclick="speakText(&#39;Can you help me read this?&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">This app is very helpful.</div>
+                    <div class="ar">هذا التطبيق مفيد جداً.</div>
+                </div>
+                <button onclick="speakText(&#39;This app is very helpful.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">How to write an email? Start with Dear.</div>
+                    <div class="ar">كيف تكتب رسالة بريد إلكتروني؟ ابدأ بـ 'عزيزي'.</div>
+                </div>
+                <button onclick="speakText(&#39;How to write an email? Start with Dear.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">Hello! My name is Sarah.</div>
+                    <div class="ar">مرحباً! اسمي سارة.</div>
+                </div>
+                <button onclick="speakText(&#39;Hello! My name is Sarah.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">I am learning English today.</div>
+                    <div class="ar">أنا أتعلم الإنجليزية اليوم.</div>
+                </div>
+                <button onclick="speakText(&#39;I am learning English today.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">Can you help me read this?</div>
+                    <div class="ar">هل يمكنك مساعدتي في قراءة هذا؟</div>
+                </div>
+                <button onclick="speakText(&#39;Can you help me read this?&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">This app is very helpful.</div>
+                    <div class="ar">هذا التطبيق مفيد جداً.</div>
+                </div>
+                <button onclick="speakText(&#39;This app is very helpful.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div><div class="reading-item">
+                <div class="reading-text">
+                    <div class="en">How to write an email? Start with Dear.</div>
+                    <div class="ar">كيف تكتب رسالة بريد إلكتروني؟ ابدأ بـ 'عزيزي'.</div>
+                </div>
+                <button onclick="speakText(&#39;How to write an email? Start with Dear.&#39;)"><i class="fa-solid fa-volume-high"></i></button>
+            </div></div>
+                </section>
+
+                <section id="dictation" class="page-section">
+                    <div class="dictation-card card">
+                        <div class="audio-control">
+                            <button class="play-btn" id="play-dictation-word"><i class="fa-solid fa-volume-high"></i></button>
+                            <p style="margin-top:1rem;color:var(--text-light);">استمع ثم اكتب الكلمة بالإنجليزية</p>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="dictation-input" placeholder="Type here..." autocomplete="off">
+                            <button id="check-dictation-btn" class="primary-btn">تحقق</button>
+                        </div>
+                        <div id="dictation-feedback" class="feedback-msg"></div>
+                        <div class="hint-control" style="margin-top:2rem;">
+                            <button id="show-hint-btn" class="tab-btn">عرض الترجمة (تلميح)</button>
+                            <p id="dictation-hint" class="hidden" style="margin-top:1rem;font-size:1.2rem;font-weight:700;color:var(--primary);">تلميح: هواء</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="vocabulary" class="page-section">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-category="kitchen">المطبخ</button>
+                        <button class="tab-btn" data-category="home">المنزل</button>
+                        <button class="tab-btn" data-category="concepts_az">مفاهيم A-Z (مثل burns)</button>
+                    </div>
+                    <div class="vocab-grid" id="vocab-container"><div class="card vocab-card">
+                    <div class="vocab-en">Spoon</div>
+                    <div class="vocab-ar">ملعقة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Spoon&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Fork</div>
+                    <div class="vocab-ar">شوكة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Fork&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Knife</div>
+                    <div class="vocab-ar">سكين</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Knife&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Plate</div>
+                    <div class="vocab-ar">طبق</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Plate&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Cup</div>
+                    <div class="vocab-ar">كوب</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Cup&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Mug</div>
+                    <div class="vocab-ar">قدح</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Mug&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Pot</div>
+                    <div class="vocab-ar">قدر</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Pot&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Pan</div>
+                    <div class="vocab-ar">مقلاة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Pan&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Oven</div>
+                    <div class="vocab-ar">فرن</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Oven&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Stove</div>
+                    <div class="vocab-ar">موقد</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Stove&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Fridge</div>
+                    <div class="vocab-ar">ثلاجة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Fridge&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Sink</div>
+                    <div class="vocab-ar">حوض الغسيل</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Sink&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Tap</div>
+                    <div class="vocab-ar">صنبور</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Tap&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Cabinet</div>
+                    <div class="vocab-ar">خزانة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Cabinet&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Drawer</div>
+                    <div class="vocab-ar">درج</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Drawer&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Blender</div>
+                    <div class="vocab-ar">خلاط</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Blender&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Toaster</div>
+                    <div class="vocab-ar">محمصة خبز</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Toaster&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Microwave</div>
+                    <div class="vocab-ar">ميكروويف</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Microwave&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Napkin</div>
+                    <div class="vocab-ar">منديل</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Napkin&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Towel</div>
+                    <div class="vocab-ar">منشفة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Towel&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Table</div>
+                    <div class="vocab-ar">طاولة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Table&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Chair</div>
+                    <div class="vocab-ar">كرسي</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Chair&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Recipe</div>
+                    <div class="vocab-ar">وصفة الطبخ</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Recipe&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Chef</div>
+                    <div class="vocab-ar">طاهي</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Chef&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Cook</div>
+                    <div class="vocab-ar">يطبخ</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Cook&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Boil</div>
+                    <div class="vocab-ar">يغلي</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Boil&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Fry</div>
+                    <div class="vocab-ar">يقلي</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Fry&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Bake</div>
+                    <div class="vocab-ar">يخبز</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Bake&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Chop</div>
+                    <div class="vocab-ar">يقطع</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Chop&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Slice</div>
+                    <div class="vocab-ar">شريحة</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Slice&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Teapot</div>
+                    <div class="vocab-ar">إبريق الشاي</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Teapot&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Jug</div>
+                    <div class="vocab-ar">إبريق</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Jug&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Bowl</div>
+                    <div class="vocab-ar">وعاء</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Bowl&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Glass</div>
+                    <div class="vocab-ar">كأس زجاجي</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Glass&#39;)"></i>
+                </div><div class="card vocab-card">
+                    <div class="vocab-en">Dishwasher</div>
+                    <div class="vocab-ar">غسالة صحون</div>
+                    <i class="fa-solid fa-circle-play play-icon" onclick="speakText(&#39;Dishwasher&#39;)"></i>
+                </div></div>
+                </section>
+
+                <section id="calls" class="page-section">
+                    <div class="card calls-app">
+                        <div class="caller-info">
+                            <div class="caller-avatar"><i class="fa-solid fa-robot"></i></div>
+                            <h3>المعلم الذكي (AI Tutor)</h3>
+                            <p>مكالمة تدريبية (Offline)</p>
+                        </div>
+                        <div class="call-controls">
+                            <button id="call-start-btn" class="call-btn btn-green"><i class="fa-solid fa-phone"></i> ابدأ المحادثة</button>
+                            <button id="call-end-btn" class="call-btn btn-red hidden"><i class="fa-solid fa-phone-slash"></i> إنهاء</button>
+                        </div>
+                        <div id="call-transcript" class="transcript-box">
+                            <p style="text-align:center;color:var(--text-light);margin-top:2rem;">انقر على زر ابدأ المحادثة للاستماع والتدرب</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="./تعلم الإنجليزية الشامل _ Learn English_files/data.js"></script>
+    <script src="./تعلم الإنجليزية الشامل _ Learn English_files/script.js"></script>
+
+
+</body></html>">
                 <i class="fa-solid fa-graduation-cap"></i>
                 <span>English Pro</span>
             </div>
