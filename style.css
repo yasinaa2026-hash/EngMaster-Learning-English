@@ -152,3 +152,134 @@ footer{
 .dark-mode .welcome-banner{
     background:var(--card);
 }
+.content-container{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.nav-card{
+    cursor:pointer;
+    text-align:center;
+    transition:.3s;
+}
+
+.nav-card:hover{
+    transform:translateY(-8px);
+}
+
+.card-icon{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.letters-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(80px,1fr));
+    gap:15px;
+}
+
+.letter-box{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:15px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.reading-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    padding:15px;
+    margin-bottom:10px;
+    border-radius:12px;
+    background:#f8fafc;
+}
+
+.vocab-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.vocab-card{
+    text-align:center;
+}
+
+.vocab-en{
+    font-size:24px;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+.vocab-ar{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.play-icon{
+    margin-top:15px;
+    font-size:28px;
+    cursor:pointer;
+    color:#2563eb;
+}
+
+.tabs{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.tab-btn{
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.calls-app{
+    text-align:center;
+}
+
+.caller-avatar{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.transcript-box{
+    margin-top:20px;
+    min-height:120px;
+    padding:15px;
+    border-radius:15px;
+    background:#f1f5f9;
+}
+
+.btn-green{
+    background:#22c55e;
+}
+
+.btn-red{
+    background:#ef4444;
+}
+
+.hidden{
+    display:none;
+}
